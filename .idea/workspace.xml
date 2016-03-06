@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2d7272a-3b36-4c9c-9050-6146cf12af42" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/FXPreviewPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/parser/highlightSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/parser/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/res/prism/themes/prism.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/Markie.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/Markie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/InputScrollPane$1.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/InputScrollPane$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/InputScrollPane.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/InputScrollPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/InputTextArea$1.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/InputTextArea$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/InputTextArea.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/InputTextArea.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MainFrame.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MainFrame.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$1.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$2.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$3.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$4.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$5.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$6.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$7.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$8.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/MenuBar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/PreviewPane$1.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/PreviewPane$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/PreviewPane.class" afterPath="$PROJECT_DIR$/src/main/bin/com/jing0/Markie/gui/PreviewPane.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/Markie.java" afterPath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/Markie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/InputScrollPane.java" afterPath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/InputScrollPane.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/InputTextArea.java" afterPath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/InputTextArea.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/MainFrame.java" afterPath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/MainFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/MenuBar.java" afterPath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/MenuBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/Preferences/GeneralPreferencesPanel.java" afterPath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/Preferences/GeneralPreferencesPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/Preferences/PreferencesManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/Preferences/PreferencesManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/PreviewPane.java" afterPath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/PreviewPane.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/parser/MarkieProcessor.java" afterPath="$PROJECT_DIR$/src/main/java/com/jing0/Markie/parser/MarkieProcessor.java" />
-    </list>
+    <list default="true" id="d2d7272a-3b36-4c9c-9050-6146cf12af42" name="Default" comment="" />
     <ignored path="Markie.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/src/main/bin/" />
@@ -58,9 +26,11 @@
       <file leaf-file-name="FXPreviewPane.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/FXPreviewPane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16200295">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding />
+            <state vertical-scroll-proportion="0.7826087">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -197,6 +167,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -469,8 +441,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -702,15 +672,16 @@
       <workItem from="1456937396196" duration="918000" />
       <workItem from="1457017606000" duration="1522000" />
       <workItem from="1457198556092" duration="582000" />
+      <workItem from="1457257482830" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137283000" />
+    <option name="totallyTimeSpent" value="137298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -719,10 +690,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24435028" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24435028" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24059561" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24059561" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1129,9 +1100,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jing0/Markie/gui/FXPreviewPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16200295">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
+        <state vertical-scroll-proportion="0.7826087">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
