@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE preferences SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map/>
+    <node name="com">
+      <map/>
+      <node name="jing0">
+        <map/>
+        <node name="Markie">
+          <map>
+            <entry key="EditorFontSize" value="16"/>
+            <entry key="FirstOpening" value="true"/>
+            <entry key="TabSize" value="4"/>
+            <entry key="EditorFont" value="Monaco"/>
+            <entry key="isFirstOpening" value="true"/>
+            <entry key="CSS" value="GitHub2"/>
+            <entry key="ShowPreview" value="true"/>
+            <entry key="ShowInfoBar" value="true"/>
+          </map>
+          <node name="css">
+            <map>
+              <entry key="CSS" value="GitHub2"/>
+              <entry key="Css" value="GitHub2"/>
+            </map>
+          </node>
+          <node name="editor">
+            <map>
+              <entry key="EditorFont" value="Monaco"/>
+              <entry key="EditorFontSize" value="16"/>
+              <entry key="TabSize" value="4"/>
+            </map>
+          </node>
+          <node name="general">
+            <map>
+              <entry key="ShowPreview" value="true"/>
+              <entry key="ShowInfoBar" value="true"/>
+            </map>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+</preferences>

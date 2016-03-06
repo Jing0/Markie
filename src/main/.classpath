@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="java"/>
+	<classpathentry kind="lib" path="/Users/Jackie/Documents/WorkSpace/Markie/lib/asm-5.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/Jackie/Documents/WorkSpace/Markie/lib/asm-analysis-5.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/Jackie/Documents/WorkSpace/Markie/lib/asm-tree-5.0.4.jar"/>
+	<classpathentry kind="lib" path="/Users/Jackie/Documents/WorkSpace/Markie/lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="/Users/Jackie/Documents/WorkSpace/Markie/lib/itextpdf-5.5.8.jar"/>
+	<classpathentry kind="lib" path="/Users/Jackie/Documents/WorkSpace/Markie/lib/miglayout-3.7.4-swing.jar"/>
+	<classpathentry kind="lib" path="/Users/Jackie/Documents/WorkSpace/Markie/lib/parboiled-core-1.1.7.jar"/>
+	<classpathentry kind="lib" path="/Users/Jackie/Documents/WorkSpace/Markie/lib/parboiled-java-1.1.7.jar"/>
+	<classpathentry kind="lib" path="/Users/Jackie/Documents/WorkSpace/Markie/lib/pegdown-1.6.0.jar"/>
+	<classpathentry kind="lib" path="/Users/Jackie/Documents/WorkSpace/Markie/lib/xmlworker-5.5.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
