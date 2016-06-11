@@ -57,7 +57,8 @@ public final class MenuBar extends Observable {
         JMenu export = new JMenu("Export");
         JMenuItem exportToHTML = new JMenuItem("HTML...");
         JMenuItem exportToPDF = new JMenuItem("PDF...");
-        JMenuItem preferences = new JMenuItem("preferences...");
+        JMenuItem exportToDOC = new JMenuItem("DOC (Beta)...");
+        JMenuItem preferences = new JMenuItem("Preferences...");
         JMenuItem exit = new JMenuItem("Exit", KeyEvent.VK_X);
 
         if (OsCheck.getOperatingSystemType() == OsCheck.OSType.MacOS) {
@@ -96,6 +97,12 @@ public final class MenuBar extends Observable {
                 frame.exportToHTML();
             }
         });
+        exportToDOC.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                frame.exportToDOC();
+            }
+        });
         exportToPDF.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -116,6 +123,7 @@ public final class MenuBar extends Observable {
         });
 
         export.add(exportToHTML);
+        export.add(exportToDOC);
         export.add(exportToPDF);
 
         fileMenu.add(newFile);

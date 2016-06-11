@@ -14,6 +14,7 @@ public class FileKit {
 
     static FileFilter MD_FILTER = new FileNameExtensionFilter("Markdown file", "md", "markdown", "txt", "text");
     static FileFilter HTML_FILTER = new FileNameExtensionFilter("HTML file", "html", "htm", "xhtml");
+    static FileFilter DOC_FILTER = new FileNameExtensionFilter("DOC file", "doc");
     static FileFilter PDF_FILTER = new FileNameExtensionFilter("PDF file", "pdf");
 
     public static File getSelectedOpenFile(Component parent, FileFilter fileFilter) {

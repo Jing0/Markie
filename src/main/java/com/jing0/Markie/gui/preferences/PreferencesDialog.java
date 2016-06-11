@@ -13,7 +13,7 @@ import java.awt.event.*;
 public class PreferencesDialog extends JDialog {
 
 	public PreferencesDialog(final MainFrame frame) {
-        this.setTitle("preferences");
+        this.setTitle("Preferences");
         this.setMinimumSize(new Dimension(390, 390));
         this.setAlwaysOnTop(true);
         this.setLocationRelativeTo(null);

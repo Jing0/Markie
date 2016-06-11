@@ -201,7 +201,7 @@ public final class MainFrame extends JFrame {
             MarkieProcessor markieProcessor = new MarkieProcessor(Extensions.ALL);
 
             String htmlContent = String.format(
-                    "<html><style>%s</style><body>%s</body></html>",
+                    "<html><head><meta charset=\"utf-8\"><style>%s</style></head><body>%s</body></html>",
                     getCSSContent(),
                     markieProcessor.markdownToHtml(getInputText()));
             try {
@@ -209,6 +209,33 @@ public final class MainFrame extends JFrame {
                 setTipText("HTML file exported", InfoPanel.TIP_LEAST_DELAY);
             } catch (IOException e) {
                 setTipText("HTML file export failed", InfoPanel.TIP_SHORT_DELAY);
+                e.printStackTrace();
+            }
+        }
+        setInputCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+    }
+
+    public void exportToDOC() {
+        setInputCursor(new Cursor(Cursor.WAIT_CURSOR));
+        String defaultFilename;
+        if (currentFile == null) {
+            defaultFilename = "untitled.doc";
+        } else {
+            defaultFilename = FilenameUtils.removeExtension(currentFile.getAbsolutePath()) + ".doc";
+        }
+        File htmlFile = FileKit.getSelectedSaveFile(this, FileKit.DOC_FILTER, defaultFilename);
+        if (htmlFile != null) {
+            MarkieProcessor markieProcessor = new MarkieProcessor(Extensions.ALL);
+
+            String htmlContent = String.format(
+                    "<html><head><meta charset=\"utf-8\"><style>%s</style></head><body>%s</body></html>",
+                    getCSSContent(),
+                    markieProcessor.markdownToHtml(getInputText()));
+            try {
+                FileUtils.writeStringToFile(htmlFile, htmlContent);
+                setTipText("DOC file exported", InfoPanel.TIP_LEAST_DELAY);
+            } catch (IOException e) {
+                setTipText("DOC file export failed", InfoPanel.TIP_SHORT_DELAY);
                 e.printStackTrace();
             }
         }
@@ -233,8 +260,8 @@ public final class MainFrame extends JFrame {
                 document.open();
                 MarkieProcessor markieProcessor = new MarkieProcessor(Extensions.ALL);
                 String htmlContent = String.format(
-                        "<html><style>%s</style><body>%s</body></html>",
-                        getCSSContent(),
+                        "<html><body>%s</body></html>",
+                        /*getCSSContent(),*/
                         markieProcessor.markdownToHtml(getInputText()));
                 XMLWorkerHelper.getInstance().parseXHtml(writer, document, new StringReader(htmlContent));
                 document.close();

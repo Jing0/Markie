@@ -28,15 +28,17 @@ public class MarkieProcessor {
     public String markdownToHtml(String markdown) {
         RootNode ast = pegDownProcessor.parseMarkdown(markdown.toCharArray());
 
+        /*
         Map<String, VerbatimSerializer> verbatimSerializers = new HashMap<String, VerbatimSerializer>() {{
             put(VerbatimSerializer.DEFAULT, HighlightSerializer.INSTANCE);
         }};
+        */
 
         List<ToHtmlSerializerPlugin> serializePlugins = new ArrayList<ToHtmlSerializerPlugin>() {{
             add(new ImgResizeSerializer());
         }};
 
-        ToHtmlSerializer serializer = new ToHtmlSerializer(new LinkRenderer(), verbatimSerializers, serializePlugins);
+        ToHtmlSerializer serializer = new ToHtmlSerializer(new LinkRenderer(), /*verbatimSerializers,*/ serializePlugins);
         return serializer.toHtml(ast);
     }
 }

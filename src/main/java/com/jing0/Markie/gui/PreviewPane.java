@@ -114,8 +114,8 @@ public final class PreviewPane extends JScrollPane implements Observer {
         String regex = "src=\"(?!http:|https:|ftp:|file:)";
 
         final String htmlContent = String.format(
-                "<html><head><style>%s</style></head><body>%s</body></html>",
-                cssContent,
+                "<html><head></head><body>%s</body></html>",
+
                 markieProcessor.markdownToHtml(inputContent).replaceAll(regex, "src=\"file:"));
         preview.setText(htmlContent);
 
