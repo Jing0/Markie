@@ -2,11 +2,8 @@ body {
     font-family: Helvetica, arial, sans-serif;
     font-size: 12px;
     line-height: 1.2;
-    /*margin: 0;*/
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 18px 31px 9px 31px;
     background-color: white;
-    padding: 40px;
 }
 
 body > *:first-child {
@@ -233,13 +230,13 @@ table tr th {
     /*border: 1px solid #cccccc;*/
     background-color: #f2f2f2;
     margin: 0;
-    padding: 2px 2px;
+    padding: 2px 8px;
 }
 
 table tr td {
     /*border: 1px solid #cccccc;*/
     margin: 0;
-    padding: 2px 2px;
+    padding: 2px 8px;
 }
 
 table tr th :first-child, table tr td :first-child {
